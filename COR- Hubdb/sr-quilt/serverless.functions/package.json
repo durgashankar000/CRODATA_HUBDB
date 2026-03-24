@@ -1,0 +1,8 @@
+{
+  "name": "sr-quilt-serverless",
+  "version": "1.0.0",
+  "description": "Serverless functions for Experiment Dashboard",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}

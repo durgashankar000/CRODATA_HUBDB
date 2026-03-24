@@ -1,0 +1,32 @@
+{
+    "runtime": "nodejs18.x",
+    "version": "1.0",
+    "environment": {},
+    "secrets": ["GREEN_HOUSE_API_KEY","ENROLLED_COURSES_ACCESS_TOKEN","MARKETPOS_HUBDB_ACCESS_TOKEN"],
+    "endpoints": {
+        "postJobFormData": {
+            "method": "POST",
+            "file": "post-job-from-data.js"
+        },
+		"enrolledCoursesEndPoint": {
+            "method": "POST",
+            "file": "enrolled-courses.js"
+        },
+        "createExperiment": {
+            "method": "POST",
+            "file": "create-experiment.js"
+        },
+        "updateExperiment": {
+            "method": "POST",
+            "file": "update-experiment.js"
+        },
+        "deleteExperiment": {
+            "method": "POST",
+            "file": "delete-experiment.js"
+        },
+        "publishExperiment": {
+            "method": "POST",
+            "file": "publish-experiment.js"
+        }
+    }
+}
